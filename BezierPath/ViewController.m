@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CheckMark.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CheckMark *view = [[CheckMark alloc] initWithFrame:CGRectMake(0, 0, 150.f, 150.f)];
+    view.center = self.view.center;
+    [self.view addSubview:view];
+    [view performSelector:@selector(show) withObject:nil afterDelay:0.4];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,6 +14,7 @@
 		5C019D7F1B54211300CB91F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C019D7E1B54211300CB91F5 /* Images.xcassets */; };
 		5C019D821B54211300CB91F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C019D801B54211300CB91F5 /* LaunchScreen.xib */; };
 		5C019D8E1B54211300CB91F5 /* BezierPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C019D8D1B54211300CB91F5 /* BezierPathTests.m */; };
+		5C019D991B54243B00CB91F5 /* CheckMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C019D981B54243B00CB91F5 /* CheckMark.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5C019D871B54211300CB91F5 /* BezierPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C019D8C1B54211300CB91F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C019D8D1B54211300CB91F5 /* BezierPathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathTests.m; sourceTree = "<group>"; };
+		5C019D971B54243B00CB91F5 /* CheckMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMark.h; sourceTree = "<group>"; };
+		5C019D981B54243B00CB91F5 /* CheckMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMark.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				5C019D761B54211300CB91F5 /* AppDelegate.m */,
 				5C019D781B54211300CB91F5 /* ViewController.h */,
 				5C019D791B54211300CB91F5 /* ViewController.m */,
+				5C019D971B54243B00CB91F5 /* CheckMark.h */,
+				5C019D981B54243B00CB91F5 /* CheckMark.m */,
 				5C019D7B1B54211300CB91F5 /* Main.storyboard */,
 				5C019D7E1B54211300CB91F5 /* Images.xcassets */,
 				5C019D801B54211300CB91F5 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				5C019D7A1B54211300CB91F5 /* ViewController.m in Sources */,
 				5C019D771B54211300CB91F5 /* AppDelegate.m in Sources */,
 				5C019D741B54211300CB91F5 /* main.m in Sources */,
+				5C019D991B54243B00CB91F5 /* CheckMark.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
